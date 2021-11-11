@@ -1,0 +1,232 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff !important;
+    font-size: 0.9rem !important;
+}
+.quick-menu ul{
+  list-style-type: none;
+  margin: 0;
+  padding-left: 36px;
+  overflow: hidden;
+  background-color: #2A5695;
+  font-size: 13px;
+}
+
+.quick-menu ul li{
+           float: left;
+}
+
+.quick-menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+  }
+.quick-menu li a:hover {
+    color: #111;
+  }
+
+.quick-contacts{
+    background-color: #2A5695;
+    font-size: 13px;
+    color: white;  
+    margin-right: 0px;
+    text-align: right;
+}
+.quick-contacts li{
+    list-style-type: none;  
+    padding-top: 5px;
+}
+.bg-light{
+    background-color: #fff !important;
+}
+.bg-light ul li a{
+    color: #1A2946 !important
+}
+.carousel-caption h1{
+
+   font-size: 15px;
+}
+
+.student-services{
+  /* background-color: #1E3D6A !important; */
+  background-color: rgb(28,56,97, .9) !important;  
+
+  margin-top: 10px !important;
+  z-index: 0;
+  position: relative;
+  color: #ffffff !important;
+  padding: 10px 10px;
+}
+.student-services-border{
+ border-right: 1px solid #EBEBEB;
+}
+.student-services img{
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
+}
+.student-services h2{
+  font-size: 20px;
+}
+.search-area{
+  background-color: #EBEBEB;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.btn-primary{
+  background-color: #2A5695 !important;
+  border: 1px solid #2A5695 !important;
+}
+.search-link{
+  color: #2A5695;
+  font-weight: bold;
+  font-size: 18px;
+}
+.notice-board{
+  border-left: 1px solid #EBEBEB;
+}
+.latest-title{
+  color: #2A5695;
+  font-weight: bold;
+  font-size: 35px;
+}
+.latest-content h3{
+  font-size: 20px !important;
+  color: #2A5695;
+}
+.latest-content h3 a{
+  color: #2A5695;
+}
+.notice-content h5{
+  font-size: 20px !important;
+  color: #2A5695; 
+}
+.notice-content h5 a{
+  color: #2A5695; 
+}
+.section-middle{
+  background: url('../img/bg.jpg');
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.btn-outline-primary{
+  color: #ffffff !important;
+  border: 1px solid #ffffff !important;
+}
+.section-middle-content{
+  padding-top: 80px;
+  color: #fff;
+}
+.event-date-upper{
+  background-color: #FFBF00;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 80px;
+  text-align: center;
+}
+.event-date-upper-date{
+  font-size: large;
+  font-weight: bold;
+}
+.event-date-upper-month{
+
+font-size: small;
+}
+.slide-excerpt{
+  font-size: 22px;
+}
+.event-date-lower{
+  background-color: #1A2946;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 80px;
+  text-align: center;
+  color: #fff;
+}
+.event-border-bottom{
+  padding-top: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #EBEBEB;
+}
+.footer-body{
+  color: #f0f6f8;
+  background-color: #222222 !important;
+}
+.footer-body ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-body ul li{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footer-body a{
+  color: #f0f6f8;
+}
+.footer-bottom{
+  background-color: #111;
+  color: rgba(255, 255, 255, 0.925);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.fa-facebook-square{
+  font-size: 30px !important;
+  color: #2A5695;
+ 
+}
+.fa-twitter-square{
+  font-size: 30px !important;
+  color: #12c1ce; 
+}
+.fa-youtube-play{
+  font-size: 30px !important;
+  color: #ce1212;
+}
+@media (min-width: 992px){
+  .carousel-caption{
+    padding-bottom: 100px !important;
+  }
+  .carousel-caption h1{
+
+    font-size: 48px;
+ }
+ .student-services{
+  /* background-color: #1E3D6A !important; */
+  background-color: rgb(28,56,97, .9) !important;  
+  margin-top: -190px !important;
+  z-index: 0;
+  position: relative;
+  color: #ffffff !important;
+  padding: 10px 10px;
+}
+.student-services img{
+  height: 100px;
+  width: 100px;
+}
+}
+@media (min-width: 1200px) { 
+  .carousel-caption{
+    padding-bottom: 200px !important;
+  }
+  .student-services{
+    /* background-color: #1E3D6A !important; */
+    background-color: rgb(28,56,97, .9) !important;  
+    margin-top: -196px !important;
+    z-index: 0;
+    position: relative;
+    color: #ffffff !important;
+    padding: 10px 10px;
+  }
+ }
